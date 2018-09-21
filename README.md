@@ -3,7 +3,7 @@
 
 Monstor shootout, a shooting game made with HTML, CSS and Javascript. Monstor Shootout is a fun and addictive game that requires a single player to click on the moving monstor on the screen. A good time pass game that can be played with friends and family turn by turn to see who can get the most hits in the given time.
 
-To play the game, [click here] (https://pinda-lall.github.io/spartaGameProject/)
+To play the game, [click here](https://pinda-lall.github.io/spartaGameProject/)
 
 ## How to play
 
