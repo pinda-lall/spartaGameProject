@@ -13,7 +13,7 @@ $(document).ready(function() {
   $("#play").click(function removePlayButton() {
     // var laughSound = $("#laughSound")[0];
     // laughSound.play();
-    time = 30;
+    time = 10;
     $(".timerCounter").html(time);
     $(".menu").hide();
     $(".gameOverText").hide();
@@ -61,6 +61,7 @@ $(document).ready(function() {
       $("#squareEnemy").remove();
       if (time != 0) {
         score++;
+        time += 1;
         $(".scoreCounter").html(score);
         spawnEnemy();
       }
@@ -82,7 +83,17 @@ $(document).ready(function() {
           'top': posY + 'px'
         });
 
-        if( score >= 20 ){
+        if ( score >= 30 ) {
+          $("#squareEnemy").css({
+            'width': 25 + 'px',
+            'height': 25 + 'px'
+          });
+        } else if ( score >= 25 ) {
+          $("#squareEnemy").css({
+            'width': 35 + 'px',
+            'height': 35 + 'px'
+          });
+        } else if( score >= 20 ){
           $("#squareEnemy").css({
             'width': 50 + 'px',
             'height': 50 + 'px'
