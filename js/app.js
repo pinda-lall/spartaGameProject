@@ -26,6 +26,7 @@ $(document).ready(function() {
     // location.reload();
     $(".menu").show();
     $("#squareEnemy").remove();
+    $(".timer").show();
     $(".timerCounter").html(time);
     time = 0;
     clearInterval(timer);
@@ -34,10 +35,10 @@ $(document).ready(function() {
     respawnArea.append("<div id=\"squareEnemy\"></div>").fadeIn(100)
   })
 
-  $(".pause").click(function pauseLevel(){
-      // clearTimeout(timer);
-
-  })
+  // $(".pause").click(function pauseLevel(){
+  //     // clearTimeout(timer);
+  //
+  // })
 
   function gameOver() {
     timer = setInterval(function(){
