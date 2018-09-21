@@ -42,16 +42,18 @@ body {
 }
 
 .timer{
-  background-color: white;
-  opacity: 0.6;
+  /* background-color: white; */
+  /* opacity: 0.6; */
   width: 100px;
   height: 50px;
   border-radius: 100px;
   position: absolute;
-  left: 0px;
-  top: 0px;
+  left: 300px;
+  top: 40px;
   color: black;
   text-align: center;
+  font-size: 150px;
+  color: white;
 }
 
 .score{
@@ -61,7 +63,7 @@ body {
   height: 50px;
   border-radius: 100px;
   position: absolute;
-  left: 120px;
+  left: 0px;
   top: 0px;
   color: black;
   text-align: center;

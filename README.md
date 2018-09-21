@@ -9,7 +9,7 @@ To play the game, [click here](https://pinda-lall.github.io/spartaGameProject/)
 
 The game is fairly straigh forward to play. When the game is loaded, the player will come across a screen that provides them with the instructions for the game and a play button which allows the user to go into the game.
 
-When the player is into the game, he/she will be provided with a GUI at the top of their screen. The button in the top right allows the user to restart the game if they feel that they did not play too well throughout the game. In the top left of the screen, there is a timer which counts downwards from 10 seconds and a score tracker which increments by 1 everytime the player hits the monster. Once the timer reaches 0, the player will no longer be able to shoot, the final score will be printed and a message will appear on their screen saying "GAME OVER". 
+When the player is into the game, he/she will be provided with a GUI at the top of their screen. The button in the top right allows the user to restart the game if they feel that they did not play too well throughout the game. In the top left of the screen, there is a score tracker which increments by 1 everytime the player hits the monster. The timer is in the center so that it is visible at all times instead of the user having to take their eye off from the game to view the time. Once the timer reaches 0, the player will no longer be able to shoot, the final score will be printed and a message will appear on their screen saying "GAME OVER". 
 
 How do you hit the monster? Simply just aim for the monster with your cursor and click when you are on him. Be Careful though, the monster does move fast.
 

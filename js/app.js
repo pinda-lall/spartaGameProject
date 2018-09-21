@@ -47,6 +47,7 @@ $(document).ready(function() {
       $(".gameOverText").show();
       // removes click event
       $("#squareEnemy").off("click");
+      $(".timer").hide();
     }
     time--;
     }, 1000);
@@ -61,7 +62,10 @@ $(document).ready(function() {
       $("#squareEnemy").remove();
       if (time != 0) {
         score++;
-        time += 1;
+        if (score % 2 === 0) {
+          time += 1;
+          $(".timerCounter").html(time);
+        }
         $(".scoreCounter").html(score);
         spawnEnemy();
       }
