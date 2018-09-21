@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> SpartaEscape</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" onkeyup=""integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/app.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="gameArea">
+        <div class="gui">
+          <button id="exit" class="guiButton exit" type="button" name="button"><i class="fas fa-redo"></i></button>
+        </div>
+        <div class="timer">
+          <p><b>Time: <span class="timerCounter"> 0 </span></b></p>
+        </div>
+        <div class="score">
+          <p><b>Score: <span class="scoreCounter"> 0 </span></b></p>
+        </div>
+        <div id="playScreen">
+          <div id="squareEnemy"></div>
+          <!-- <div class="circleEnemy"></div> -->
+          <div class="gameOverText"> GAME OVER </div>
+        </div>
+      </div>
+      <div class="menu">
+        <div class="logo"></div>
+        <div class="gameName">
+          <h2>Monster Shootout</h2>
+        </div>
+        <button id="play" type="button" name="button">START GAME</button>
+      </div>
+      <div class="controls">
+        <span><b>INSTRUCTIONS:</b> You have 30 Seconds to shoot as many monsters as you can. Use the mouse to aim for them and click the mouse to destroy them. GOOD LUCK SPARTAN!</span>
+      </div>
+    </div>
+    <audio id="killSound" src="audio/death.mp3"></audio>
+    <audio id=laughSound" src="audio/laugh.mp3"></audio>
+  </body>
+</html>
